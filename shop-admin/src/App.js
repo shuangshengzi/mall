@@ -1,29 +1,19 @@
-import { useEffect } from 'react';
-import { Select } from 'zent';
-import 'zent/css/index.css';
-import './App.css';
+import React from 'react';
 
-const options = [
-  {
-    key: '1',
-    text: 'Option 1',
-  },
-  {
-    key: '2',
-    text: 'Option 2',
-  },
-  {
-    key: '3',
-    text: 'Option 3',
+class App extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {};
   }
-];
-function App() {
 
-  return (
-    <div className="App">
-      <Select clearable options={options} placeholder="选择一项" />
-    </div>
-  );
+  render() {
+    return (
+      <div className="App">
+        App.
+      </div>
+    );
+  }
 }
 
 export default App;

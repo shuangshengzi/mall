@@ -1,0 +1,6 @@
+@import '../common/index.wxss';
+
+.van-checkbox-group--horizontal {
+    display: flex;
+    flex-wrap: wrap
+}

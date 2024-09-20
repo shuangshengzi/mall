@@ -1,0 +1,9 @@
+.tab-bar {
+    pointer-events: auto;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 10001;
+
+    font-size: 28 rpx;
+}

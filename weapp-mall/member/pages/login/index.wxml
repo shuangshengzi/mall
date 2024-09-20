@@ -1,0 +1,3 @@
+<view class="login-container">
+  <navigation-bar/>
+</view>

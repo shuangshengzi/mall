@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/userCenter/index"
+  ],
+  "subpackages": [
+    {
+      "root": "member",
+      "pages": [
+        "pages/index/index",
+        "pages/login/index"
+      ]
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "mall",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "custom": true,
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/userCenter/index"
+      }
+    ]
+  },
+  "resolveAlias": {
+    "@/api/*": "/api/*",
+    "@/utils/*": "/utils/*",
+    "@/components/*": "/components/*"
+  },
+  "usingComponents": {},
+  "requiredPrivateInfos": [
+    "getLocation"
+  ],
+  "plugins": {
+    "qiyu": {
+      "version": "1.16.0",
+      "provider": "wxae5e29812005203f"
+    }
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

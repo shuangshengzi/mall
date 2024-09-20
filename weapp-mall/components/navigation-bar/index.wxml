@@ -1,0 +1,18 @@
+<view class="navigation-bar">
+  <view
+      class="navigation-bar__content"
+      style="height: {{menuBtnHeight * 2}}rpx; margin-top: {{menuBtnTop * 2}}rpx; padding: 0 {{menuBtnWidth * 2}}rpx;"
+  >
+    <view
+        class="back"
+        bind:tap="onBack"
+        style="left: {{menuBtnRight * 2}}rpx;"
+    >
+      left
+    </view>
+
+    <view class="title">
+      {{ navBarTitle }}
+    </view>
+  </view>
+</view>
